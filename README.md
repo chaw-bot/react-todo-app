@@ -16,7 +16,7 @@ Desktop Version
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://chaw-bot.github.io/react-todo-app/)
 
 # Install Instruction
 1. Open your terminal and `cd` to a proper location.
