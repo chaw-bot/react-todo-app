@@ -8,7 +8,7 @@ import { v4 as uuidv4 } from 'uuid';
 import About from '../pages/About';
 import NotMatch from '../pages/NotMatch';
 import Navbar from './Navbar';
-
+/* eslint-disable */
 const TodoContainer = () => {
   const [todos, setTodos] = useState(getInitialTodos());
 

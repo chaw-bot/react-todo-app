@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
+/* eslint-disable */
 const SinglePage = () => {
   const aboutData = [
     {

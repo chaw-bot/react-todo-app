@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 import { MdClose } from 'react-icons/md';
 import { FiMenu } from 'react-icons/fi';
-
+/* eslint-disable */
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -31,8 +31,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='navBar'>
-      <button type='button' onClick={handleToggle}>
+    <nav className="navBar">
+      <button type="button" onClick={handleToggle}>
         {
           navbarOpen ?
           <MdClose

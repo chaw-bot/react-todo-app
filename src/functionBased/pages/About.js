@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouteMatch, Link, Route } from 'react-router-dom';
 import SinglePage from './SinglePage';
-
+/* eslint-disable */
 const About = () => {
   const { url, path } = useRouteMatch();
 
